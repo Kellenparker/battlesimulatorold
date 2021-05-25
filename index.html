@@ -3,6 +3,7 @@
 <head>
 	<title>Battle Simulator</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
@@ -10,19 +11,10 @@
 		<h1 id="title">Simulator</h1>
 	</div>
 
-	<div class="split left">
-		<div class="element friendly">
-			<h3 class="elehead">1st Army</h3>
-			<p class="paragraph">Infantry: 00000 Cavalry: 00000 Artillery: 00000</p>
-		</div>
+	<div class="split left" id="user">
 	</div>
 
-	<div class="split right">
-		<div class="element enemy">
-			<h3 class="elehead">1st Army</h3>
-			<p class="paragraph">Infantry: 00000 Cavalry: 00000 Artillery: 00000</p>
-			<button class="button">Edit</button>
-		</div>
+	<div class="split right" id="comp">
 	</div>
 
 </body>
