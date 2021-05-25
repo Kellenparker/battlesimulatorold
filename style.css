@@ -36,7 +36,7 @@
 /* Control the right side */
 .right {
 	right: 0;
-	background-color: #f9f2f2;
+	background-color: #fff2f2;
 }
 
 .element {
@@ -47,18 +47,18 @@
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 1px;
-	border-color: #a0a0a0;
+	border-color: #999999;
 	margin-right: 10px;
 	margin-top: 30px;
 	filter: drop-shadow(30px,30px,30px,black);
 }
 
 .enemy {
-	background-color: #ffe0e0;
+	background-color: #ffcccc;
 }
 
 .friendly {
-	background-color: #e0ffe0;
+	background-color: #ccffcc;
 }
 
 .elehead {
@@ -76,4 +76,20 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin-top: -10px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	z-index: 2;
+}
+
+#gobut {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
