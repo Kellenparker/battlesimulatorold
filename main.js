@@ -19,6 +19,7 @@ function addArmy(user){
 		$('#userArmy' + userArmies).append('<h3 class="elehead">' + userArmies + genArmyNumber(userArmies) + ' Army</h3>');
 		$('#userArmy' + userArmies).append('<p class="paragraph">Infantry: 00000 Cavalry: 00000 Artillery: 00000</p>');
 		$('#userArmy' + userArmies).append('<button class="armyBut" id="userBut' + userArmies + '">Edit</button>');
+		$('#userArmy' + userArmies).append('<button class="removeBut" id="remUser' + userArmies + '">Remove</button>');		
 		$('#user').append('<button class="addArmy" id="addArmyUser">Add Army</button>');
 		$('#addArmyUser').on("click", function(){
 			addArmy(true);
@@ -34,6 +35,7 @@ function addArmy(user){
 		$('#compArmy' + compArmies).append('<h3 class="elehead">' + compArmies + genArmyNumber(compArmies) + ' Army</h3>');
 		$('#compArmy' + compArmies).append('<p class="paragraph">Infantry: 00000 Cavalry: 00000 Artillery: 00000</p>');
 		$('#compArmy' + compArmies).append('<button class="armyBut" id="compBut' + compArmies + '">Edit</button>');
+		$('#compArmy' + compArmies).append('<button class="removeBut" id="remComp' + compArmies + '">Remove</button>');	
 		$('#comp').append('<button class="addArmy" id="addArmyComp">Add Army</button>');		
 		$('#addArmyComp').on("click", function(){
 			addArmy(false);
