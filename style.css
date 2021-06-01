@@ -76,10 +76,12 @@
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 5px;
+	width: 70px;
 }
 
 .removeBut {
 	display: inline-block;
+	width: 70px;
 }
 
 .addArmy {
@@ -104,9 +106,32 @@
 
 #gobut {
 	margin-top: 10px;
-	margin-bottom: 60px;
+	margin-bottom: 90px;
 	height: 50px;
 	width: 150px;
+}
+
+.totals {
+	height: 10%;
+	width: 50%;
+	position: relative;
+	z-index: 1;
+	bottom: 0px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#userTotals {
+	left: 0;
+	position: absolute;
+	transform: translate(0%, -120%);
+}
+
+#compTotals {
+	right: 0;
+	position: absolute;
+	transform: translate(0%, -120%);
 }
 
 .losses {
