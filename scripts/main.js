@@ -2,13 +2,6 @@
 var userArmies = 0;
 var compArmies = 0;
 
-var UserObj {
-	armies: []
-}
-
-var compObj {
-	armies: []
-}
 
 $(document).ready(function(){
 	addArmy(true);
